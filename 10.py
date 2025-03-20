@@ -13,5 +13,5 @@ def test():
     new2_data = torch.stack([data1,data2],dim=0)
     print(new2_data.shape)
     print("new2_data-->",new2_data)
-    if __name__ == '__main__':
-        test()
+if __name__ == '__main__':
+    test()
